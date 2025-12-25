@@ -77,7 +77,7 @@ _This will create a `data/traffic.csv` file._
 
 ---
 
-## 🏃‍♂️ How to Run
+##  How to Run
 
 FLARE consists of 3 components that must run simultaneously. Open **3 separate terminal windows**.
 
