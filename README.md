@@ -1,11 +1,43 @@
-<<<<<<< HEAD
-# FLARE: Federated Learning for Anomaly Detection (IoT Security)
 
-**FLARE** is a privacy-preserving Intrusion Detection System (IDS) that uses **Federated Learning** to train Deep Autoencoders on edge devices without sharing raw data, and **Explainable AI (SHAP)** to interpret the alerts.
 
----
 
-## 🚀 Setup Instructions
+#  FLARE: Federated Learning–Based Explainable Intrusion Detection System
+
+FLARE is a privacy-preserving, federated, and explainable Intrusion Detection System (IDS) designed to detect zero-day and unknown cyber attacks in distributed environments such as IoT, edge, and enterprise networks. The system combines Federated Learning, Deep Autoencoder–based anomaly detection, and Explainable AI (SHAP) to deliver accurate, transparent, and real-time intrusion detection without sharing raw network traffic data.
+
+##  Key Features
+- Zero-day and unknown attack detection  
+- Privacy-preserving federated learning (no raw data sharing)  
+- Deep autoencoder–based anomaly detection  
+- Explainable AI (SHAP) for feature-level explanations  
+- Real-time monitoring dashboard  
+- Scalable for IoT, edge, and cloud environments  
+
+##  Technologies Used
+- Language: Python 3.8+  
+- Deep Learning: PyTorch  
+- Federated Learning: Flower (FLWR)  
+- Explainable AI: SHAP  
+- Data Processing: NumPy, Pandas, Scikit-learn  
+- Dashboard: Streamlit, Plotly  
+- Dataset: CICIDS2017  
+
+##  Dataset
+FLARE uses the CICIDS2017 dataset, which contains real-world benign and malicious network traffic suitable for evaluating intrusion detection systems.
+
+##  Setup Instructions
+### Prerequisites
+- Python 3.8 or higher  
+- pip package manager  
+- Optional: CUDA-enabled GPU  
+
+### Clone Repository
+```bash
+git clone https://github.com/your-username/flare.git
+cd flare
+
+
+##  Setup Instructions
 
 ### 1. Prerequisites
 
@@ -81,7 +113,7 @@ _Open the URL shown (usually `http://localhost:8501`)._
 
 ---
 
-## 🎮 Interactive Demo Features
+##  Interactive Demo Features
 
 In the Dashboard:
 
@@ -91,7 +123,7 @@ In the Dashboard:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 flare/
