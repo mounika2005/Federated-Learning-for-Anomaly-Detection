@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FLARE: Federated Learning for Anomaly Detection (IoT Security)
 
 **FLARE** is a privacy-preserving Intrusion Detection System (IDS) that uses **Federated Learning** to train Deep Autoencoders on edge devices without sharing raw data, and **Explainable AI (SHAP)** to interpret the alerts.
@@ -110,3 +111,6 @@ flare/
 ├── data/                   # Dataset directory
 └── download_data.py        # Dataset downloader script
 ```
+=======
+# Federated-Learning-for-Anomaly-Detection
+>>>>>>> 4fcd5a8cdf4da235aaeff9c8ceebf0ac2267d0c2
